@@ -1,0 +1,7 @@
+module.exports = {
+    ARTIST_ID: "1u7kkVrr14iBvrpYnZILJR",
+    ALBUM_ID: "0sNOF9WDwhWunNAHPD3Baj",
+    PLAYLIST_ID: "3ktAYNcRHpazJ9qecm3ptn",
+    ACCESS_TOKEN: "BQDlcZn9Zr9NmWYZLY0tkMekrHOvE-B8b91gHaYaOBSquIuRFSzQqv_BRcqw1rj2lnRt7bOvidXb81nhRh4MXZMBNm7GkYjjhXAkFZ61wN4AtG1tO8xCZz8OC3aA6_0GQ8gekvysMk4-zEc32vTaTpBbVeduwVEDSvRHYwe2mDlyniO2GFdRHA"
+
+}
