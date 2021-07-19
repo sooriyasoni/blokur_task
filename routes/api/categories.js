@@ -1,15 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const SpotifyWebApi = require('spotify-web-api-node');
-const constants = require('../../constants');
-var spotify = new SpotifyWebApi();
+const categoryData = require('../../response/category')
 
 router.get('/', async (req, res) => {
   try {
-    await spotify.setAccessToken(constants.ACCESS_TOKEN);
-    var categories = await spotify.getCategories()
-    if(categories)
-      res.send(categories.body);
+      res.send(categoryData);
   } catch (error) {
     console.log(error);
   }

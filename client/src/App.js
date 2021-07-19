@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Switch>
-        <Route exact path = "/album" component={Album}/>
+        <Route exact path = "/" component={Album}/>
         <Route exact path = "/playlist" component={Playlist}/>
         <Route exact path = "/categories" component={Category}/>
         <Route component = {NotFound}/>

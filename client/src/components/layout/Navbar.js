@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <NavLink className="navbar-brand" exact to="/album">
+                <NavLink className="navbar-brand" exact to="/">
                     Album
                 </NavLink>
                 <div className="collapse navbar-collapse">
